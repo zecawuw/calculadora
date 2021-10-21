@@ -68,11 +68,11 @@ button{
     height: 150px;
 }
 
-@media screen and (min-height: 1366px){
+@media screen and (min-height: 2400px){
     
     #calcular{
-        top: 807px;
-        left: 589px;
+        top: 1326px;
+        left: 618px;
     }
 
 }
