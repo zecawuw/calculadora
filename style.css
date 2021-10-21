@@ -86,14 +86,6 @@ button{
 
 }
 
-@media screen and (min-height: 812px){
-    
-    .calculadora{
-        height: 698px;
-    }
-
-}
-
 @media screen and (max-width: 768px){
     
     #calcular{
@@ -115,7 +107,7 @@ button{
 @media screen and (max-width: 414px){
     
     #calcular{
-        top: 493px;
+        top: 521px;
         left: 283px;
     }
 
