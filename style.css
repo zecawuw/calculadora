@@ -68,52 +68,51 @@ button{
     height: 150px;
 }
 
-@media screen and (min-height: 2400px){
+@media screen and (max-width: 1280px){
     
     #calcular{
-        top: 1326px;
-        left: 618px;
+        top: 524px;
+        left: 717px;
     }
 
 }
 
-@media screen and (max-height: 1024px){
+@media screen and (max-width: 1024px){
     
     #calcular{
-        top: 637px;
+        top: 735px;
+        left: 589px;
+    }
+
+}
+
+@media screen and (min-height: 812px){
+    
+    .calculadora{
+        height: 698px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    
+    #calcular{
+        top: 564px;
         left: 461px;
     }
 
 }
 
-@media screen and (max-height: 823px){
+@media screen and (max-width: 540px){
     
     #calcular{
-        top: 536px;
-        left: 282px;
+        top: 485px;
+        left: 347px;
     }
 
 }
 
-@media screen and (max-height: 812px){
-    
-    #calcular{
-        top: 531px;
-        left: 264px;
-    }
-
-}
-
-@media screen and (max-height: 800px){
-    
-    #calcular{
-        top: 525px;
-        left: 718px;
-    }
-
-}
-
-@media screen and (max-height: 736px){
+@media screen and (max-width: 414px){
     
     #calcular{
         top: 493px;
@@ -122,26 +121,17 @@ button{
 
 }
 
-@media screen and (max-height: 731px){
+@media screen and (max-width: 411px){
     
     #calcular{
-        top: 490px;
-        left: 282px;
+        top: 491px;
+        left: 283px;
     }
 
 }
 
-@media screen and (max-height: 720px){
-    
-    #calcular{
-        top: 485px;
-        left: 346px;
-    }
+@media screen and (max-width: 375px){
 
-}
-
-@media screen and (max-height: 667px){
-    
     #calcular{
         top: 458px;
         left: 264px;
@@ -149,47 +139,11 @@ button{
 
 }
 
-@media screen and (max-height: 640px){
+@media screen and (max-width: 360px){
     
     #calcular{
         top: 445px;
         left: 256px;
-    }
-
-}
-
-@media screen and (max-height: 600px){
-    
-    #calcular{
-        top: 425px;
-        left: 589px;
-    }
-
-}
-
-@media screen and (max-height: 568px){
-   
-    .calculadora{
-        background-color: #314559;
-        padding: 20px;
-        width: 269px;
-        height: 470px;
-        border-radius: 20px;
-    }
-
-    button{
-        font-size: 38px;
-        width: 63px;
-    }
-
-    #calcular{
-        top: 402px;
-        left: 228px;
-        height: 118px;
-    }
-
-    #n0{
-        width: 130px;
     }
 
 }
@@ -199,24 +153,24 @@ button{
     .calculadora{
         background-color: #314559;
         padding: 20px;
-        width: 269px;
+        width: 201px;
         height: 500px;
         border-radius: 20px;
     }
 
     button{
         font-size: 38px;
-        width: 56px;
+        width: 46px;
     }
 
     #calcular{
         top: 430px;
-        left: 201px;
+        left: 192px;
         height: 118px;
     }
 
     #n0{
-        width: 117px;
+        width: 96px;
     }
 
 }
