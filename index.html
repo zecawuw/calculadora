@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+    <title>calculadora</title>
+</head>
+<body>
+
+    <div class="calculadora">
+        <input type='text' id='field1' readonly value='0' />
+        <br /><br />
+        <button class="corButtonOutra" onclick='cleartxt()' id='C'>C</button>
+        <button class="corButtonWhite" onclick='removeLastNumber()' id='removeLast'>&lt</button>
+
+        <button class="corButtonWhite" onclick='setOperator(this)' id='divide'>/</button>
+        <button class="corButtonWhite" onclick='setOperator(this)' id='multi'>*</button>
+
+        <br /><br />
+
+        <button class="corButtonWhite" onclick='writeNumber(this)' id='n9'>9</button>
+        <button class="corButtonWhite" onclick='writeNumber(this)' id='n8'>8</button>
+        <button class="corButtonWhite" onclick='writeNumber(this)' id='n7'>7</button>
+        <button class="corButtonWhite" onclick='setOperator(this)' id='sustract'>-</button>
+
+
+        <br /><br />
+
+        <button class="corButtonWhite" onclick='writeNumber(this)' id='n6'>6</button>
+        <button class="corButtonWhite" onclick='writeNumber(this)' id='n5'>5</button>
+        <button class="corButtonWhite" onclick='writeNumber(this)' id='n4'>4</button>
+        <button class="corButtonWhite" onclick='setOperator(this)' id='sum'>+</button>
+
+        <br /><br />
+
+        <button class="corButtonWhite" onclick='writeNumber(this)' id='n3'>3</button>
+        <button class="corButtonWhite" onclick='writeNumber(this)' id='n2'>2</button>
+        <button class="corButtonWhite" onclick='writeNumber(this)' id='n1'>1</button>
+        <button class="corButtonOutra" onclick='calculate()' id='calcular'>=</button>
+
+        <br /><br />
+
+        <button class="corButtonOutra" onclick='writeNumber(this)' id='n0'>0</button>
+        <button class="corButtonWhite" onclick='setDecimal(this,true)' id='dec'>.</button>
+
+
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
