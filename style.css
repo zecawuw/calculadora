@@ -107,7 +107,8 @@ button{
 @media screen and (max-width: 414px){
     
     #calcular{
-        top: 521px;
+        /* top: 493px; */
+        top: 582px;
         left: 283px;
     }
 
