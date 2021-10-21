@@ -1,4 +1,7 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Orbitron;
     overflow: hidden;
 }
@@ -23,9 +26,6 @@
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     height: 100vh;
     background-color: #c95696;
     display: flex;
@@ -79,18 +79,54 @@ button{
 
 @media screen and (max-width: 1024px){
     
+    .calculadora{
+        width: 338px;
+        height: 578px;
+
+    }
+
     #calcular{
-        top: 735px;
+        top: 802px;
         left: 589px;
+    }
+
+}
+
+@media screen and (max-height: 800px){
+    
+    .calculadora{
+        width: 338px;
+        height: 571px;
+
+    }
+
+    #calcular{
+        top: 524px;
+        left: 718px;
     }
 
 }
 
 @media screen and (max-width: 768px){
     
+    .calculadora{
+        width: 338px;
+        height: 578px;
+
+    }
+
     #calcular{
-        top: 564px;
+        top: 631px;
         left: 461px;
+    }
+
+}
+
+@media screen and (max-height: 600px){
+    
+    #calcular{
+        top: 421px;
+        left: 589px;
     }
 
 }
@@ -98,7 +134,7 @@ button{
 @media screen and (max-width: 540px){
     
     #calcular{
-        top: 485px;
+        top: 480px;
         left: 347px;
     }
 
@@ -106,9 +142,23 @@ button{
 
 @media screen and (max-width: 414px){
     
+    .calculadora{
+        width: 366px;
+        height: 578px;
+
+    }
+
+    button{
+        width: 78px;
+    }
+
     #calcular{
-        top: 493px;
-        left: 283px;
+        top: 488px;
+        left: 291px;
+    }
+
+    #n0{
+        width: 161px;
     }
 
 }
@@ -124,9 +174,24 @@ button{
 
 @media screen and (max-width: 375px){
 
+    .calculadora{
+        width: 341px;
+        height: 578px;
+
+    }
+
+    button{
+        width: 71px;
+    }
+
     #calcular{
-        top: 458px;
+        top: 454px;
         left: 264px;
+        height: 146px;
+    }
+
+    #n0{
+        width: 147px;
     }
 
 }
@@ -145,7 +210,7 @@ button{
     .calculadora{
         background-color: #314559;
         padding: 20px;
-        width: 201px;
+        width: 240px;
         height: 500px;
         border-radius: 20px;
     }
@@ -156,7 +221,7 @@ button{
     }
 
     #calcular{
-        top: 430px;
+        top: 437px;
         left: 192px;
         height: 118px;
     }
