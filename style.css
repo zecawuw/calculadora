@@ -58,22 +58,27 @@ button{
 }
 
 #n0{
-    width: 148px;
+    width: 147px;
 }
 
-#calcular{
-    position: absolute;
-    top: 493px;
-    left: 283px;
-    height: 150px;
+#calcular2{
+    padding-top: 10px;
 }
+
+/* #calcular{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 150px;
+    z-index: 999;
+} */
 
 @media screen and (max-width: 1280px){
     
-    #calcular{
+    /* #calcular{
         top: 524px;
         left: 717px;
-    }
+    } */
 
 }
 
@@ -85,10 +90,10 @@ button{
 
     }
 
-    #calcular{
+    /* #calcular{
         top: 802px;
         left: 589px;
-    }
+    } */
 
 }
 
@@ -100,10 +105,10 @@ button{
 
     }
 
-    #calcular{
+    /* #calcular{
         top: 524px;
         left: 718px;
-    }
+    } */
 
 }
 
@@ -115,14 +120,14 @@ button{
 
     }
 
-    #calcular{
+    /* #calcular{
         top: 631px;
         left: 461px;
-    }
+    } */
 
 }
 
-@media screen and (max-height: 600px){
+/* @media screen and (max-height: 600px){
     
     #calcular{
         top: 421px;
@@ -138,7 +143,7 @@ button{
         left: 347px;
     }
 
-}
+} */
 
 @media screen and (max-width: 414px){
     
@@ -152,10 +157,10 @@ button{
         width: 78px;
     }
 
-    #calcular{
+    /* #calcular{
         top: 576px;
         left: 291px;
-    }
+    } */
 
     #n0{
         width: 161px;
@@ -163,14 +168,14 @@ button{
 
 }
 
-@media screen and (max-width: 411px){
+/* @media screen and (max-width: 411px){
     
     #calcular{
         top: 491px;
         left: 283px;
     }
 
-}
+} */
 
 @media screen and (max-width: 375px){
 
@@ -184,11 +189,11 @@ button{
         width: 71px;
     }
 
-    #calcular{
+    /* #calcular{
         top: 454px;
         left: 264px;
         height: 146px;
-    }
+    } */
 
     #n0{
         width: 147px;
@@ -198,10 +203,10 @@ button{
 
 @media screen and (max-width: 360px){
     
-    #calcular{
+    /* #calcular{
         top: 445px;
         left: 256px;
-    }
+    } */
 
 }
 
@@ -220,11 +225,11 @@ button{
         width: 46px;
     }
 
-    #calcular{
+    /* #calcular{
         top: 437px;
         left: 192px;
         height: 118px;
-    }
+    } */
 
     #n0{
         width: 96px;
